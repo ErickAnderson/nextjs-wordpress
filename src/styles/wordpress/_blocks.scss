@@ -1,0 +1,11 @@
+.wp-block-columns {
+    display: flex;
+
+    img {
+        object-fit: contain;
+    }
+
+    div:not(:first-child){
+        margin-left: 1rem;
+    }
+}
