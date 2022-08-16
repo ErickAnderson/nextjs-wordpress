@@ -15,6 +15,7 @@ module.exports = withPlugins([[indexSearch], [feed], [sitemap]], {
   // By enabling verbose logging, it will provide additional output details for
   // diagnostic purposes. By default is set to false.
   // verbose: true,
+  reactStrictMode: true,
 
   env: {
     // The image directory for open graph images will be saved at the location above
